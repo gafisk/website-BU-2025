@@ -8,3 +8,8 @@ Route::get('/', function () {
 Route::get('/berita', function () {
     return view('main.layouts.pages.berita.berita');
 });
+
+
+Route::get('/admin', function () {
+    return view('admin.layouts.main');
+});
